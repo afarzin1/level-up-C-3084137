@@ -2,10 +2,28 @@
 
 char *ordinal(int v)
 {
-	/*
-	   - create this function
-	   - this code won't run with out it!
-	 */
+	int lastChar;
+
+	lastChar = v%10;
+
+	if ((v==11) || (v==12) || (v==13))
+		return "th";
+
+	switch (lastChar){
+		case 1:
+			return "st";
+			break;
+		case 2:
+			return "nd";
+			break;
+		case 3:
+			return "rd";
+			break;
+		default:
+			return "th";
+			break;
+	}
+
 }
 
 int main()

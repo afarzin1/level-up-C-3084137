@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/arya/Documents/GitHub/level-up-C-3084137/src/01_01/ordinal_challenge'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _ordinal, symObjAddr: 0x0, symBinAddr: 0x100003E18, symSize: 0x14 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _ordinal, symObjAddr: 0x0, symBinAddr: 0x100003E18, symSize: 0x14 }
+  - { offsetInCU: 0x69, offset: 0x69, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x14, symBinAddr: 0x100003E2C, symSize: 0x148 }
+...
